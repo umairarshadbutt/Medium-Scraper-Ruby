@@ -1,9 +1,9 @@
 require_relative '../lib/articles.rb'
 require_relative '../lib/display.rb'
+html = 'https://medium.com/topic/programming'
+doc = Nokogiri::HTML(URI.open(html))
   describe Articles do
-    html = 'https://medium.com/topic/programming'
-    doc = Nokogiri::HTML(URI.open(html))
-
+   
     let(:raw_info) { doc.css('section .fg')[0] }
     let(:post) { Articles.new(raw_info) }
     it 'Test: post_title is a String' do
@@ -20,4 +20,19 @@ require_relative '../lib/display.rb'
       it 'Test: post_title is Capitalize' do
         expect(post.post_title).to eq(post.post_title.capitalize!)
       end
+  end
+
+  describe Display do
+ 
+    it 'prints data to console' do
+  
+      shirt_collection = []
+  
+      doc.css('section .fg').each do |shirt_data|
+        new_shirt = Articles.new(shirt_data)
+        shirt_collection.push(new_shirt)
+      end
+  
+      expect { Display.print_all(shirt_collection) }.to output.to_stdout
+    end
   end
