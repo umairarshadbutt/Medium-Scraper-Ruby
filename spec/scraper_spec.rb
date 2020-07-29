@@ -22,7 +22,7 @@ describe Articles do
 end
 
 describe Display do
-  it 'prints data to console' do
+  it 'Test: prints data to console' do
     articles = []
 
     doc.css('section .fg').each do |post|
