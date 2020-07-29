@@ -1,5 +1,3 @@
-
-
 module Display
   def self.print_all(programming_post)
     programming_post.each do |post|
