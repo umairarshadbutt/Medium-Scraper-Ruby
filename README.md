@@ -22,6 +22,10 @@ Date & Time to read: Jul 29·15 min read
 
 - Ruby
 
+## Live Demo
+
+To demo the project, visit [Live Demo](https://repl.it/@umairarshad/Medium-Scraper-Ruby#bin/main.rb)
+
 
 ## Getting Started
 
