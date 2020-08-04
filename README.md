@@ -7,6 +7,9 @@
 [![Github Issues](https://img.shields.io/badge/GitHub-Issues-orange)](https://github.com/umairarshadbutt/TicTacToe-Ruby/issues)
 [![GitHub2 Pull Requests](https://img.shields.io/badge/GitHub-Pull%20Requests-blue)](https://github.com/umairarshadbutt/TicTacToe-Ruby/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+[![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/umair-arshad-butt/)
+[![Gmail](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:Umair,umair6622@gmail.com)
+[![Portfolio](https://img.shields.io/badge/umair--arshad-Portfolio-brightgreen)](https://umairarshad.me/)
 </div>
 <p align="center">The main goal is to implement the main concepts of Ruby</p>
 
